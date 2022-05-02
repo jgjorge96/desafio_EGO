@@ -1,0 +1,25 @@
+.specsCard {
+    width: 268px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: 'Montserrat', sans-serif;
+    color: #373737;
+    line-height: 27px;
+}
+.specsCard img {
+    width: 100%;
+    max-width: 268px;
+    border-radius: 6px;
+}
+.specsCard h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 18.53px;
+}
+.specsCard p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 18px;
+}

@@ -1,0 +1,111 @@
+.itemsRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    color: #373737;
+}
+.itemsContainer {
+    padding: 5.53vw 23.14vh;
+}
+.sectionsNav {
+    height: 41px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #CCCCCC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #191919;
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+.sectionsNav ul {
+    width: 622px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.links {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #373737;
+    text-decoration: none;
+}
+.links:hover {
+    color: #373737;
+}
+.dropContainer {
+    width: 170px;
+    height: 182px;
+    background-color: #ffffff;
+    padding: 3px 16px;
+}
+.dropText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #191919;
+    background-color: #ffffff;
+    text-decoration: none;
+    border: none;
+}
+b {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 951px) {
+    #navBar {
+        display: none;
+    }
+    #dropdown {
+        display: inline-block;
+    }
+}
+@media (min-width: 951px) {
+    #dropdown {
+        display: none;
+    }
+}
+@media (max-width: 680px) {
+    .itemsContainer {
+        width: 100%;
+        padding-left: 4.03vh;
+        padding-right: 4.03vh;
+    }
+    h1 {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 44px;
+    }
+}
+@media (max-width:376px) {
+    .itemsContainer {
+        width: 100%;
+        padding-left: 2.03vh;
+        padding-right: 2.03vh;
+    }
+    h1 {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 44px;
+    }
+}

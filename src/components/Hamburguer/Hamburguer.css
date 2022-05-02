@@ -1,0 +1,14 @@
+.burguerUl {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    list-style-type: none;
+}
+.ul1 {
+    background-color: #EFEEEF;
+}
+.liBorder {
+    height: 55px;
+    border-bottom: 1px solid #E9E9E9;
+}

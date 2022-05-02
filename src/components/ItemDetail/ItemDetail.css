@@ -1,0 +1,172 @@
+.introContainer {
+    margin: 0vw 9vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.introContainer img {
+    width: 100%;
+    max-width: 667px;
+    min-width: 340px;
+}
+.carIntro {
+    width: 100%;
+    max-width: 475px;
+    min-width: 345px;
+    margin-top: 91px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #373737;
+}
+.carIntro h3 {
+    font-size: 20px;
+    line-height: 27px;
+}
+.carIntro h2 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-top: 8px;
+}
+.carIntro p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 37px;
+}
+.carousel {
+    
+    width: 100%;
+    height: 410px;
+}
+.carouselContainer {
+    width: 100%;
+    max-width: 1440px;
+    height: 410px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F7F7F7;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.carData1 {
+    margin-top: 59px;
+    margin-right: 151px;
+    margin-left: 246px;
+    margin-bottom: 34px;
+    max-width: 1062px;
+    width: 100%;
+    height: 302px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+.carData1 img {
+    width: 100%;
+    max-width: 667px;
+    min-width: 340px;
+}
+.carText {
+    margin-top: 74.25px;
+    height: 150.35px;
+    width: 385px;
+    font-family: 'Montserrat', sans-serif;
+    color: #373737;
+    line-height: 27px;
+}
+.carText h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.carText p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 13.56px;
+}
+
+.carData2 {
+    margin-top: 34px;
+    margin-right: 228px;
+    margin-left: 150px;
+    margin-bottom: 163.03px;
+    max-width: 1062px;
+    width: 100%;
+    height: 357.37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.carData2 img {
+    width: 100%;
+    height: 100%;
+    max-width: 561px;
+    min-width: 340px;
+    max-height: 345px;
+    min-height: 240px;
+    border-radius: 8px;
+}
+@media (max-width:1052px) {
+    .carData1 {
+        margin-top: 40vh;
+    }
+}
+@media (max-width:680px) {
+    .introContainer {
+        margin: 0 0;
+    }
+    .carIntro {
+        margin: 6.36vh 13.53vh 
+    }
+    .carData1 {
+        margin-left: 13.53vh;
+        margin-right: 2.03vh;
+        margin-top: 13vh;
+    }
+    .carData1 img {
+        margin-right: 4.4vh;
+    }
+    .carText {
+       margin-top: 1.76vh;
+       margin-right: 4.4vh;
+    }
+    .carData2 {
+        margin-left: 13.53vh;
+        margin-right: 2.03vh;
+        margin-top: 0vh;
+        height: 240px;
+        width: 346px;
+    }
+}
+
+@media (max-width:450px) {
+    .introContainer {
+        margin: 0 0;
+    }
+    .carIntro {
+        margin: 6.36vh 0.97vw 
+    }
+    .carData1 {
+        margin-left: 2.03vh;
+        margin-top: 13vh;
+    }
+    .carData1 img {
+        margin-right: 2.03vh;
+    }
+    .carText {
+       margin-top: 1.76vh;
+    }
+    .carData2 {
+        margin-left: 2.03vh;
+        margin-top: 0vh;
+        height: 240px;
+        width: 346px;
+    }
+}

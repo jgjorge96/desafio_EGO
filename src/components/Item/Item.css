@@ -1,0 +1,50 @@
+.cardTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.cardSub {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 8px;
+}
+.cardImg {
+    max-width: 235px;
+}
+.cardContainer {
+    width: 269px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.card1:hover .cardTitle {
+    color: #eb0a1e;
+}
+.btnCard {
+    background-color: #191919;
+    width: 152px;
+    height: 34px;
+    border-radius: 40px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    display: none;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    line-height: 34px;
+}
+.card1:hover .btnCard {
+    display: inline-block;
+    color: #ffffff;
+}
