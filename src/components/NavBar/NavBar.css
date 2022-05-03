@@ -36,7 +36,7 @@
 
 @media (max-width:376px) {
   .headerNav {
-    padding-left: 2.03vh;
+    padding-left: 0px;
     padding-right: 2.03vh;
   }
 }
